@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221744970721",
+    "firebase_url": "https://iboxer.firebaseio.com",
+    "project_id": "iboxer",
+    "storage_bucket": "iboxer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221744970721:android:6422f7c6542147e5dff0a0",
+        "android_client_info": {
+          "package_name": "com.example.iboxer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221744970721-ft0asfmjeeeh61pbldu57tse5veogf7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBE6YVhXOmVaQhDfcAmk3lrDs3s2bwVyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221744970721-ft0asfmjeeeh61pbldu57tse5veogf7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

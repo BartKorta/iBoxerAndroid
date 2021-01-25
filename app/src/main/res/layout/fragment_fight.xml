@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FightFragment"
+    android:background="#0C1960">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/touchit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bungee_inline"
+        android:padding="20dp"
+        android:text="Touch the\n   Gloves !"
+        android:textColor="#FFC107"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/glovesanim"
+        android:layout_width="wrap_content"
+        android:layout_height="267dp"
+        android:layout_alignTop="@+id/touchit"
+        android:layout_marginTop="226dp"
+        android:layoutAnimation="@anim/pulse_layout_anim"
+        android:src="@drawable/gloves"
+        android:layout_gravity="center_horizontal"/>
+
+</FrameLayout>
